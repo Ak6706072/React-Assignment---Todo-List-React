@@ -77,7 +77,7 @@ function App() {
               isEditing={obj.isEditing}
               input={input}
               setInputValue={setInputValue}
-              saveTask={saveData}
+              saveTask={saveTask}
             />
           );
         })}
